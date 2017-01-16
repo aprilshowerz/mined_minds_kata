@@ -25,4 +25,8 @@ class TestMMFunctions < Minitest::Test
 	def test_six_returns_mined()
 		assert_equal('mined', get_mined_minds_result(6))
 	end
+
+	def test_thirtysix_returns_mined()
+		assert_equal('mined', get_mined_minds_result(36))
+	end
 end

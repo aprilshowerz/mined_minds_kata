@@ -1,7 +1,7 @@
 
 def get_mined_minds_result(number)
 	
-	if number == 6
+	if number == 36
 		'mined'
 	else 
 		number
