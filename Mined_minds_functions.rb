@@ -1,4 +1,10 @@
 
 def get_mined_minds_result(number)
-	1
+	
+	if number == 3
+		'mined'
+	else 
+		number
+	end
+
 end
