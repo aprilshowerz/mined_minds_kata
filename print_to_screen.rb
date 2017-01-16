@@ -5,25 +5,26 @@
 #	if number == 3
 #	puts 'mined'
 #	number += 1
-#	else if condition if number == 5
+#	else if number == 5
 #		puts 'minds'
 #		number += 1
-#	else if if number == 15
+#	else if number == 15
 #		puts 'mined minds'
 #		number += 1
 #	else
 #	puts number
 	#end
 
-	number = 1
+number = 1
 
-	100.times do
+100.times do
 
-		if number == 3
+	if number == 3
 			puts "mined"
-			number = number + 1
-		else
-			puts number
-			number = number + 1
-		end
+	elsif number ==5
+			puts "minds"
+	else
+		puts number
+	end
+		number = number + 1
 end
