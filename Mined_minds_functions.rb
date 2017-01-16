@@ -59,23 +59,23 @@
 #end
 
 #Test 8
-def get_mined_minds_result(number)
-	if number == 20
-		'minds'
-	else 
-		number
-	end
-end
-
-
-#Test 9
 #def get_mined_minds_result(number)
-#	if number == 90
-#		'Mined Minds'
+#	if number == 20
+#		'minds'
 #	else 
 #		number
 #	end
 #end
+
+
+#Test 9
+def get_mined_minds_result(number)
+	if number == 90
+		'Mined Minds'
+	else 
+		number
+	end
+end
 
 #Test 10
 #def get_mined_minds_result(number)
