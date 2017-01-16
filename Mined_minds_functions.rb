@@ -1,8 +1,8 @@
 
 def get_mined_minds_result(number)
 	
-	if number == 5
-		'minds'
+	if number == 15
+		'Mined Minds'
 	else 
 		number
 	end
