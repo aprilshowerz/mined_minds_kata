@@ -10,7 +10,10 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(2, get_mined_minds_result(2))
 	end
 	
-	def test_three_returns_mined()
-		assert_equal('mined', get_mined_minds_result(3))
+	
+
+	def test_five_returns_minds()
+		assert_equal('minds', get_mined_minds_result(5))
 	end
+
 end
