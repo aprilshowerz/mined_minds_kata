@@ -46,4 +46,8 @@ class TestMMFunctions < Minitest::Test
 		assert_equal('Mined Minds', get_mined_minds_result(90))
 	end
 
+	#test 10
+	def test_ninetyeight_returns_mined()
+		assert_equal(98, get_mined_minds_result(98))
+	end
 end
