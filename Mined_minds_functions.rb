@@ -1,9 +1,8 @@
 #Test 1
 #def get_mined_minds_result(number)
-	#Test 1
-	#if number == 1
-	#	number
-	#end
+#	if number == 1
+#		number
+#	end
 #end
 
 #Test 2
